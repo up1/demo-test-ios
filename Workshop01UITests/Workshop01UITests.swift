@@ -1,11 +1,3 @@
-//
-//  Workshop01UITests.swift
-//  Workshop01UITests
-//
-//  Created by Somkiat Puisungnoen on 11/3/2563 BE.
-//  Copyright © 2563 Somkiat Puisungnoen. All rights reserved.
-//
-
 import XCTest
 
 class Workshop01UITests: XCTestCase {
