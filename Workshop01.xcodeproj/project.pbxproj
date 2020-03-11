@@ -16,6 +16,7 @@
 		A270328724188A320066CFCC /* Workshop01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270328624188A320066CFCC /* Workshop01Tests.swift */; };
 		A270329224188A320066CFCC /* Workshop01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270329124188A320066CFCC /* Workshop01UITests.swift */; };
 		A27032A0241893A40066CFCC /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270329F241893A40066CFCC /* Hello.swift */; };
+		A2B212862418A7CB002B4DD1 /* MyRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A270329124188A320066CFCC /* Workshop01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop01UITests.swift; sourceTree = "<group>"; };
 		A270329324188A320066CFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A270329F241893A40066CFCC /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRangeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				A270328624188A320066CFCC /* Workshop01Tests.swift */,
 				A270328824188A320066CFCC /* Info.plist */,
+				A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */,
 			);
 			path = Workshop01Tests;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A270328724188A320066CFCC /* Workshop01Tests.swift in Sources */,
+				A2B212862418A7CB002B4DD1 /* MyRangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
