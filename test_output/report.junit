@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Workshop01UITests.xctest' tests='7' failures='0'>
+  <testsuite name='Workshop01Tests.MyRangeTests' tests='4' failures='0'>
+    <testcase classname='Workshop01Tests.MyRangeTests' name='test_start_with_exclude' time='0.001'/>
+    <testcase classname='Workshop01Tests.MyRangeTests' name='test_start_with_exclude_and_1_should_be_2' time='0.002'/>
+    <testcase classname='Workshop01Tests.MyRangeTests' name='test_start_with_include' time='0.001'/>
+    <testcase classname='Workshop01Tests.MyRangeTests' name='test_start_with_include_and_1_should_be_1' time='0.000'/>
+  </testsuite>
+  <testsuite name='Workshop01Tests.Workshop01Tests' tests='1' failures='0'>
+    <testcase classname='Workshop01Tests.Workshop01Tests' name='test_Hello_with_somkiat_should_sayHi_Hi_Somkiat' time='0.000'/>
+  </testsuite>
+  <testsuite name='Workshop01UITests.SampleUITests' tests='1' failures='0'>
+    <testcase classname='Workshop01UITests.SampleUITests' name='testExample' time='3.568'/>
+  </testsuite>
+  <testsuite name='Workshop01UITests.Workshop01UITests' tests='1' failures='0'>
+    <testcase classname='Workshop01UITests.Workshop01UITests' name='testExample' time='2.951'/>
+  </testsuite>
+</testsuites>

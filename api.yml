@@ -1,0 +1,21 @@
+# java -jar stubby4j-6.0.2.jar --data api.yml
+-  request:
+    method: GET
+    url: /hello/somkiat
+
+   response:
+    status: 200
+    headers:
+       content-type: application/json
+    file: somkiat.json
+
+-  request:
+    method: GET
+    url: /hello/a
+
+   response:
+    status: 200
+    latency: 5000
+    headers:
+        content-type: application/json
+    file: a.json

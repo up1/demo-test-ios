@@ -17,6 +17,9 @@
 		A270329224188A320066CFCC /* Workshop01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270329124188A320066CFCC /* Workshop01UITests.swift */; };
 		A27032A0241893A40066CFCC /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270329F241893A40066CFCC /* Hello.swift */; };
 		A2B212862418A7CB002B4DD1 /* MyRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */; };
+		A2B212882418B4DD002B4DD1 /* MyRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B212872418B4DD002B4DD1 /* MyRange.swift */; };
+		A2B2128C2418C436002B4DD1 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2128B2418C436002B4DD1 /* SampleUITests.swift */; };
+		A2B2128E2418D33A002B4DD1 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2128D2418D33A002B4DD1 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		A270329324188A320066CFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A270329F241893A40066CFCC /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 		A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRangeTests.swift; sourceTree = "<group>"; };
+		A2B212872418B4DD002B4DD1 /* MyRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRange.swift; sourceTree = "<group>"; };
+		A2B2128B2418C436002B4DD1 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
+		A2B2128D2418D33A002B4DD1 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				A270327A24188A320066CFCC /* LaunchScreen.storyboard */,
 				A270327D24188A320066CFCC /* Info.plist */,
 				A270329F241893A40066CFCC /* Hello.swift */,
+				A2B212872418B4DD002B4DD1 /* MyRange.swift */,
 			);
 			path = Workshop01;
 			sourceTree = "<group>";
@@ -128,8 +135,10 @@
 		A270329024188A320066CFCC /* Workshop01UITests */ = {
 			isa = PBXGroup;
 			children = (
+				A2B2128D2418D33A002B4DD1 /* SnapshotHelper.swift */,
 				A270329124188A320066CFCC /* Workshop01UITests.swift */,
 				A270329324188A320066CFCC /* Info.plist */,
+				A2B2128B2418C436002B4DD1 /* SampleUITests.swift */,
 			);
 			path = Workshop01UITests;
 			sourceTree = "<group>";
@@ -286,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B212882418B4DD002B4DD1 /* MyRange.swift in Sources */,
 				A270327424188A310066CFCC /* ViewController.swift in Sources */,
 				A270327024188A310066CFCC /* AppDelegate.swift in Sources */,
 				A27032A0241893A40066CFCC /* Hello.swift in Sources */,
@@ -307,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A270329224188A320066CFCC /* Workshop01UITests.swift in Sources */,
+				A2B2128C2418C436002B4DD1 /* SampleUITests.swift in Sources */,
+				A2B2128E2418D33A002B4DD1 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

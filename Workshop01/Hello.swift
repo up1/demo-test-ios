@@ -8,8 +8,4 @@ class Hello {
     func sayHi() -> String {
         "Hi, \(self.name)"
     }
-
-    func sayHi2() -> String {
-        "Hi, \(self.name)"
-    }
 }
