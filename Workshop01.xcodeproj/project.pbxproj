@@ -16,6 +16,8 @@
 		A270328724188A320066CFCC /* Workshop01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270328624188A320066CFCC /* Workshop01Tests.swift */; };
 		A270329224188A320066CFCC /* Workshop01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270329124188A320066CFCC /* Workshop01UITests.swift */; };
 		A27032A0241893A40066CFCC /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270329F241893A40066CFCC /* Hello.swift */; };
+		A287071F2419DBCA004F8A7C /* MyRandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287071E2419DBCA004F8A7C /* MyRandomTests.swift */; };
+		A28707212419DC23004F8A7C /* MyRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28707202419DC23004F8A7C /* MyRandomNumber.swift */; };
 		A2B212862418A7CB002B4DD1 /* MyRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */; };
 		A2B212882418B4DD002B4DD1 /* MyRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B212872418B4DD002B4DD1 /* MyRange.swift */; };
 		A2B2128C2418C436002B4DD1 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2128B2418C436002B4DD1 /* SampleUITests.swift */; };
@@ -55,6 +57,8 @@
 		A270329124188A320066CFCC /* Workshop01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop01UITests.swift; sourceTree = "<group>"; };
 		A270329324188A320066CFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A270329F241893A40066CFCC /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		A287071E2419DBCA004F8A7C /* MyRandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomTests.swift; sourceTree = "<group>"; };
+		A28707202419DC23004F8A7C /* MyRandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomNumber.swift; sourceTree = "<group>"; };
 		A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRangeTests.swift; sourceTree = "<group>"; };
 		A2B212872418B4DD002B4DD1 /* MyRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRange.swift; sourceTree = "<group>"; };
 		A2B2128B2418C436002B4DD1 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 				A270327D24188A320066CFCC /* Info.plist */,
 				A270329F241893A40066CFCC /* Hello.swift */,
 				A2B212872418B4DD002B4DD1 /* MyRange.swift */,
+				A28707202419DC23004F8A7C /* MyRandomNumber.swift */,
 			);
 			path = Workshop01;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				A270328624188A320066CFCC /* Workshop01Tests.swift */,
 				A270328824188A320066CFCC /* Info.plist */,
 				A2B212852418A7CB002B4DD1 /* MyRangeTests.swift */,
+				A287071E2419DBCA004F8A7C /* MyRandomTests.swift */,
 			);
 			path = Workshop01Tests;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2B212882418B4DD002B4DD1 /* MyRange.swift in Sources */,
+				A28707212419DC23004F8A7C /* MyRandomNumber.swift in Sources */,
 				A270327424188A310066CFCC /* ViewController.swift in Sources */,
 				A270327024188A310066CFCC /* AppDelegate.swift in Sources */,
 				A27032A0241893A40066CFCC /* Hello.swift in Sources */,
@@ -308,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A270328724188A320066CFCC /* Workshop01Tests.swift in Sources */,
+				A287071F2419DBCA004F8A7C /* MyRandomTests.swift in Sources */,
 				A2B212862418A7CB002B4DD1 /* MyRangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
