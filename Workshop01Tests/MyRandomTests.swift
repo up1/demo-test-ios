@@ -12,7 +12,7 @@ class MyRandomTests: XCTestCase {
 
         let myRandom = MyRandomNumber()
         myRandom.random = stub
-        XCTAssertEqual(6, myRandom.getNumber())
+        XCTAssertEqual(7, myRandom.getNumber())
     }
     
     func test_should_be_call_get_one_tine() {
